@@ -1,0 +1,46 @@
+.view {
+    color: #ed6546;
+
+}
+
+.title {
+    color: #2f2f2f;
+    transform: scale(.8, 1.5);
+}
+
+.para {
+    color: #979696;
+}
+
+.card-1 {
+    background: #fff;
+}
+
+.price {
+    color: #ed6546;
+}
+
+.play {
+    background: #ed6546;
+}
+
+.our::before {
+    content: "BIKES";
+    position: absolute;
+    font-size: 290px;
+    top: 30px;
+    font-weight: bold;
+    transform: scale(.9, 1.5);
+    left: -80px;
+    color: #e5ebee;
+    z-index: -1;
+}
+
+.w-4.custom-class {
+    fill: #ed6546;
+    stroke: #ed6546;
+}
+
+.img {
+    z-index: 9999;
+}

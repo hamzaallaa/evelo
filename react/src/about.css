@@ -1,0 +1,46 @@
+.next {
+    background-color: #ed6546;
+    color: #fff !important;
+}
+
+.title {
+    color: #2f2f2f;
+    transform: scale(.8, 1.5);
+}
+
+.card {
+    position: absolute;
+    background: #fff;
+    border-top: 3px solid #ed6546;
+    max-width: 320px;
+    left: 50%;
+    top: 100px;
+
+    
+}
+.card h2 {
+    transform: scale(.8, 1.8);
+    color: #2f2f2f;
+}
+
+.card .mt {
+    transform: scale(.5, .5) !important;
+}
+
+.card p {
+    line-height: 23px;
+    color: #979696;
+}
+
+.content::before {
+    content: "01";
+    color: #fff;
+    position: absolute;
+    font-size: 400px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    transform: scale(.7, 1.5);
+
+}
